@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88042AF32A39BB9100BD0595 /* CustomAuthPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AF22A39BB9100BD0595 /* CustomAuthPlugin.m */; };
+		88042AF72A39BD7800BD0595 /* plugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AF62A39BD7800BD0595 /* plugIn.m */; };
+		88042AFB2A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AFA2A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.m */; };
+		88042AFF2A3A0B9600BD0595 /* CustomizedUserNamePasswordLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88042AFE2A3A0B9600BD0595 /* CustomizedUserNamePasswordLogin.xib */; };
+		88E8AC112A3A22AD0090B574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E8AC102A3A22AD0090B574 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88042AE72A39BAFF00BD0595 /* CustomAuthPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAuthPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		88042AEA2A39BAFF00BD0595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88042AF12A39BB9100BD0595 /* CustomAuthPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAuthPlugin.h; sourceTree = "<group>"; };
+		88042AF22A39BB9100BD0595 /* CustomAuthPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAuthPlugin.m; sourceTree = "<group>"; };
+		88042AF52A39BD7800BD0595 /* plugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plugIn.h; sourceTree = "<group>"; };
+		88042AF62A39BD7800BD0595 /* plugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plugIn.m; sourceTree = "<group>"; };
+		88042AF92A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedUserNamePasswordLogin.h; sourceTree = "<group>"; };
+		88042AFA2A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedUserNamePasswordLogin.m; sourceTree = "<group>"; };
+		88042AFE2A3A0B9600BD0595 /* CustomizedUserNamePasswordLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomizedUserNamePasswordLogin.xib; sourceTree = "<group>"; };
+		88E8AC102A3A22AD0090B574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88042AE42A39BAFF00BD0595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88042ADE2A39BAFF00BD0595 = {
+			isa = PBXGroup;
+			children = (
+				88042AE92A39BAFF00BD0595 /* CustomAuthPlugin */,
+				88042AE82A39BAFF00BD0595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88042AE82A39BAFF00BD0595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88042AE72A39BAFF00BD0595 /* CustomAuthPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88042AE92A39BAFF00BD0595 /* CustomAuthPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				88042AEA2A39BAFF00BD0595 /* Info.plist */,
+				88042AF12A39BB9100BD0595 /* CustomAuthPlugin.h */,
+				88042AF22A39BB9100BD0595 /* CustomAuthPlugin.m */,
+				88E8AC102A3A22AD0090B574 /* main.m */,
+				88042AF52A39BD7800BD0595 /* plugIn.h */,
+				88042AF62A39BD7800BD0595 /* plugIn.m */,
+				88042AF92A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.h */,
+				88042AFA2A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.m */,
+				88042AFE2A3A0B9600BD0595 /* CustomizedUserNamePasswordLogin.xib */,
+			);
+			path = CustomAuthPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88042AE62A39BAFF00BD0595 /* CustomAuthPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88042AED2A39BAFF00BD0595 /* Build configuration list for PBXNativeTarget "CustomAuthPlugin" */;
+			buildPhases = (
+				88042AE32A39BAFF00BD0595 /* Sources */,
+				88042AE42A39BAFF00BD0595 /* Frameworks */,
+				88042AE52A39BAFF00BD0595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAuthPlugin;
+			productName = CustomAuthPlugin;
+			productReference = 88042AE72A39BAFF00BD0595 /* CustomAuthPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88042ADF2A39BAFF00BD0595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					88042AE62A39BAFF00BD0595 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 88042AE22A39BAFF00BD0595 /* Build configuration list for PBXProject "CustomAuthPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88042ADE2A39BAFF00BD0595;
+			productRefGroup = 88042AE82A39BAFF00BD0595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88042AE62A39BAFF00BD0595 /* CustomAuthPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88042AE52A39BAFF00BD0595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88042AFF2A3A0B9600BD0595 /* CustomizedUserNamePasswordLogin.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88042AE32A39BAFF00BD0595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88042AF72A39BD7800BD0595 /* plugIn.m in Sources */,
+				88042AF32A39BB9100BD0595 /* CustomAuthPlugin.m in Sources */,
+				88E8AC112A3A22AD0090B574 /* main.m in Sources */,
+				88042AFB2A39BF8300BD0595 /* CustomizedUserNamePasswordLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88042AEB2A39BAFF00BD0595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88042AEC2A39BAFF00BD0595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88042AEE2A39BAFF00BD0595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CustomAuthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.CustomAuthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		88042AEF2A39BAFF00BD0595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CustomAuthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.CustomAuthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88042AE22A39BAFF00BD0595 /* Build configuration list for PBXProject "CustomAuthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88042AEB2A39BAFF00BD0595 /* Debug */,
+				88042AEC2A39BAFF00BD0595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88042AED2A39BAFF00BD0595 /* Build configuration list for PBXNativeTarget "CustomAuthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88042AEE2A39BAFF00BD0595 /* Debug */,
+				88042AEF2A39BAFF00BD0595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88042ADF2A39BAFF00BD0595 /* Project object */;
+}
